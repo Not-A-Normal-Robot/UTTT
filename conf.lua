@@ -23,10 +23,10 @@ function love.conf(t)
 
     t.modules.audio = false
     t.modules.data = false
-    t.modules.event = true
+    t.modules.event = false
     t.modules.font = true
     t.modules.graphics = true
-    t.modules.image = false
+    t.modules.image = true
     t.modules.joystick = true
     t.modules.keyboard = true
     t.modules.math = true
