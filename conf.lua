@@ -1,6 +1,6 @@
 function love.conf(t)
     t.version = "11.3"
-    t.console = false
+    t.console = true
     t.accelerometerjoystick = false
     t.externalstorage = false
     t.gammacorrect = true
@@ -23,7 +23,7 @@ function love.conf(t)
 
     t.modules.audio = false
     t.modules.data = false
-    t.modules.event = false
+    t.modules.event = true
     t.modules.font = true
     t.modules.graphics = true
     t.modules.image = true
@@ -34,7 +34,7 @@ function love.conf(t)
     t.modules.physics = false
     t.modules.sound = true
     t.modules.system = true
-    t.modules.thread = false
+    t.modules.thread = true
     t.modules.timer = true
     t.modules.touch = true
     t.modules.video = false
