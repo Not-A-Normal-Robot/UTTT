@@ -1,0 +1,4 @@
+[submodule "Zenitha"]
+	path = Zenitha
+	url = https://github.com/26F-Studio/Zenitha.git
+	branch = main
